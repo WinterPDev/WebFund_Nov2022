@@ -1,0 +1,64 @@
+/* 
+h1 represents what we select.
+color is the css rule we're using.
+font-size is the scss rule we're using to change the size to 50px.
+px = pixel
+*/
+h1 {
+    color: rebeccapurple;
+    background-color: teal;
+    font-size: 50px;
+}
+
+
+/* 
+Global selectors, like h1 are a weak priority.
+If we use a class, the class will override any rules that overlap with the global selector.
+ID is another attribute, and it gets the highest priority.
+*/
+
+
+/* Descendant selector, parent -> child element/class */
+/* h1 span {
+    font-size: 80px;
+} */
+
+
+/* 
+Classes are meant to be used generically and more than once.
+Class has a higher priority than a global selector.
+-------------------------
+Id is single use, and an element can only ever have 1 Id. 
+Id has higher priority than class. 
+*/
+
+
+h2 {
+    background-color: pink;
+    color: black;
+}
+
+.pink-bg {
+    background-color: pink;
+}
+
+.purple-text {
+    /* color: rebeccapurple; */
+    font-size: 2em;
+}
+
+.center-text {
+    text-align: center;
+}
+
+#text-bigger {
+    font-size: 80px;
+}
+
+#red-bg {
+    background-color: crimson;
+}
+
+#white-text {
+    color: white;
+}
