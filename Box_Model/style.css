@@ -1,0 +1,31 @@
+h1 {
+    color: rebeccapurple;
+}
+
+.teal-bg {
+    background-color: teal;
+}
+
+.bordered {
+    border: 2px solid black;
+}
+
+.display-inlineblock {
+    display: inline-block;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+}
+
+
+
+.box-container {
+    /* Padding adds space between the border and the content of the element */
+    margin: 0 auto;
+    padding: 20px;
+    width: 400px;
+    background-color: darkgoldenrod;
+}
