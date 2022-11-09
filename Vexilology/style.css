@@ -1,0 +1,25 @@
+/* .flag {
+    height: 700px;
+    width: 900px;
+    display: flex;
+background-color: pink;
+border: 2px solid black;
+} 
+
+*/
+.column {
+    width: 300px;
+    height: 700px;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-blue {
+    background-color: blue;
+}

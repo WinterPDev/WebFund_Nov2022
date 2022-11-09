@@ -1,0 +1,45 @@
+/* 
+Inline-Block needs to be applied to every element that I want side by side.
+
+Flex only needs to be applied to the parent element. 
+It will then apply flex to the children.
+*/
+
+a {
+    text-decoration: none;
+}
+
+/* 
+To use align-items and justify-content we must be applying them to flexed elements
+*/
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+
+    list-style: none;
+    background-color: darkseagreen;
+
+}
+
+.navbar-links li {
+    margin-right: 20px;
+}
+
+.navbar {
+    /* 
+    Flex applies to the children elements, 
+    we add Display: Flex to the parent container/element.
+    */
+    display: flex;
+    justify-content: space-between;
+
+    background-color: cadetblue;
+}
+
+.navbar h1 {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
