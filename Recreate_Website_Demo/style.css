@@ -11,7 +11,6 @@
     position: fixed;
     top: 0px;
     width: 100%;
-    background-color: burlywood;
 }
 
 .navbar-top {
@@ -31,6 +30,7 @@
 }
 
 .navbar-links {
+    padding-right: 20px;
     background-color: white;
     display: flex;
     list-style: none;
@@ -60,6 +60,8 @@
 }
 
 .spotlight-details {
+    padding-left: 30px;
+    padding-right: 30px;
     display: flex;
     justify-content: space-between;
     background-color: white;
@@ -83,7 +85,8 @@
 
 
 .featured {
-    background-color: chartreuse;
+    border-top: 1px solid lightgray;
+    padding: 20px;
 }
 
 .featured-list {
@@ -93,16 +96,16 @@
 
 .featured-box {
     flex: 1;
-    background-color: antiquewhite;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    overflow: hidden;
     margin: 30px;
 }
 
 .featured-box img {
-    object-fit: cover;
     width: 100%;
 }
 
 .featured-box-bottom {
     padding: 20px;
-    min-height: 50%;
 }
