@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: burlywood;
+}
+
+.navbar-top {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.logo {
+    padding: 15px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.navbar-links {
+    background-color: white;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navbar-bottom {
+    justify-content: center;
+    padding: 10px;
+}
+
+.navbar-bottom li {
+    display: flex;
+    align-items: center;
+}
+
+.spotlight {
+    margin-top: 100px;
+    background: rgb(153, 34, 195);
+    background: linear-gradient(0deg, rgba(153, 34, 195, 1) 0%, rgba(45, 253, 216, 1) 100%);
+}
+
+.spotlight-image {
+    padding: 30px;
+    margin: 0 auto;
+    display: block;
+}
+
+.spotlight-details {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.spotlight-details-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.spotlight-details-left button {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+
+.featured {
+    background-color: chartreuse;
+}
+
+.featured-list {
+    /* height: 350px; */
+    display: flex;
+}
+
+.featured-box {
+    flex: 1;
+    background-color: antiquewhite;
+    margin: 30px;
+}
+
+.featured-box img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.featured-box-bottom {
+    padding: 20px;
+    min-height: 50%;
+}
