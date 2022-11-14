@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Onclick is an event listener and it's waiting for the user to click an element and then execute the code after the = -->
+    <button onclick="alert('hello')">Click Me!</button>
+    <!-- If giving a function a string, remember to put that string in single quotes.  -->
+    <h1 onclick="alert('Im reaching out about your car plan')">Click here for more pop-ups!</h1>
+    <hr>
+    <!-- this refers to the element the event listener is attatched/attributed to -->
+    <button onclick="exampleFunction(this)">
+        Show Whole Element in the Console!
+    </button>
+    <button onclick="exampleFunction2(this)">
+        Show This Text in Console!
+    </button>
+
+    <ul onclick="exampleFunction3(this)">
+        <li>Thing 1</li>
+        <li>Thing 2</li>
+    </ul>
+
+
+    <button onclick="lightSwitch(this)">On</button>
+
+    <h1 onclick="hide(this)">Click here to make me dissapear!</h1>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
