@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.margin-center {
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: lightgray;
+    width: 1000px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.main {
+    display: flex;
+    width: 1000px;
+    height: 1200px;
+    background-color: cornflowerblue;
+}
+
+.col-1 {
+    flex: 2;
+    margin-right: 30px;
+    background-color: cyan;
+}
+
+.col-2 {
+    flex: 1;
+    background-color: darkorchid;
+}
+
+
+.box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 2px solid black;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.box h3 {
+    padding: 30px;
+}

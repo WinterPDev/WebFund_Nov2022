@@ -1,0 +1,58 @@
+
+Before the Exam:
+
+1. Communication about making it to the Exam, and addressing any missing Core Assignments.
+
+2. Get some sleep! And remember to eat!
+
+3. Prepare yourself with reviewing core assignments!
+Recommended study:
+    - Profile Page
+    - Button Clicker
+    - Likes
+
+4. Templating - Prepare a folder with necessary files for the exam with the files linked ahead of time.
+
+
+Morning of the Exam:
+
+1. Let your instructor know you are taking the exam!
+    - YOU MUST USE THE EXAM CODE BEFORE 10 AM MST
+
+2. There is no Morning Algo on Exam Day
+
+3. You are marked as present for the full day if you are taking the Exam!
+
+
+Taking the Exam:
+
+1. You have 5 hours to complete the exam, starting at when you submit the code.
+2. YOU DO NOT NEED TO SUBMIT A VIDEO FILE!
+3. DO NOT PLAGIARIZE 
+4. Open Note and Open Internet
+
+5. Ping the @cohort-Winterp in the Discord for any help!
+
+6. When pinging, mention the breakout Room you are inside of! 
+    - 1 person per breakout room!
+    - Be on the Zoom the ENTIRE TIME! (Don't need to be on camera/mic can be muted)
+    - Reasons for pinging: Questions and Grading! 
+        - When asking for help, we can't give you any direct answers! 
+        -Grading is done LIVE.
+
+7. Reference the Rubric on the platform for what's expected: https://login.codingdojo.com/m/201/7509/55012
+
+
+Submitting the Exam & Grading:
+
+1. Submit the Exam as a .zip file on the exam page. (Zip up ALL NECESSARY FILES! (CSS, HTML, JS, Images, etc.))
+    - VALIDATE YOUR HTML: https://validator.w3.org/nu/#textarea
+    - DON'T SUBMIT A VIDEO FILE!
+    - YOU CAN SUBMIT MORE THAN ONCE WITHIN THE TIME LIMIT!
+    - GRADING IS NOT FINAL UNTIL THE TIME HAS RUN OUT! (You always have the 5 hours alloted for the Exam!)
+
+2. Grading 
+    - Live Grading, TA or Instructor will grade it with you on Zoom.
+    - Share screen, show the website and how it looks. Then show functionality and then we look at the code.
+    - You are evaluated using the Rubric to dictate what score you get out of 10 points.
+    - You are told the score right after the grade and then you can leave the zoom if you are done for the day.
